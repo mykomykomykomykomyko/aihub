@@ -1,153 +1,313 @@
 <template>
-  <div class="bg-white">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <div class="lg:text-center">
-        <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Training & Development</h2>
-        <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          Learn AI Best Practices
-        </p>
-        <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-          Access comprehensive training materials and resources to help you effectively implement AI solutions in your department.
+  <div class="min-h-screen bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="text-center mb-16">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">AI Training Programs</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Master AI development with our comprehensive learning paths
         </p>
       </div>
 
       <!-- Learning Paths -->
-      <div class="mt-16">
-        <h3 class="text-xl font-bold text-gray-900 mb-8">Learning Paths</h3>
-        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <!-- Beginner Path -->
-          <div class="bg-white overflow-hidden shadow rounded-lg border border-gray-200">
-            <div class="p-6">
-              <div class="flex items-center justify-between">
-                <h4 class="text-lg font-semibold text-gray-900">AI Fundamentals</h4>
-                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
-                  Beginner
-                </span>
+      <div class="space-y-8">
+        <!-- Beginner Path -->
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100">
+          <div class="p-8 sm:p-10">
+            <div class="flex items-center justify-between">
+              <div>
+                <h2 class="text-2xl font-bold text-gray-900">AI Fundamentals</h2>
+                <p class="mt-2 text-gray-600">Start your journey into AI development</p>
               </div>
-              <p class="mt-4 text-gray-600">Learn the basics of AI and how it can transform government operations.</p>
-              <ul class="mt-6 space-y-4">
-                <li class="flex items-center">
-                  <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span class="ml-3 text-gray-600">Introduction to AI</span>
-                </li>
-                <li class="flex items-center">
-                  <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span class="ml-3 text-gray-600">AI in Government</span>
-                </li>
-                <li class="flex items-center">
-                  <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span class="ml-3 text-gray-600">Ethics and Responsibility</span>
-                </li>
-              </ul>
-              <div class="mt-6">
-                <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
-                  Start Learning
-                </a>
-              </div>
+              <span class="inline-flex items-center px-4 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                Beginner
+              </span>
             </div>
-          </div>
 
-          <!-- Intermediate Path -->
-          <div class="bg-white overflow-hidden shadow rounded-lg border border-gray-200">
-            <div class="p-6">
-              <div class="flex items-center justify-between">
-                <h4 class="text-lg font-semibold text-gray-900">AI Implementation</h4>
-                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
-                  Intermediate
-                </span>
-              </div>
-              <p class="mt-4 text-gray-600">Learn how to implement AI solutions in your department effectively.</p>
-              <ul class="mt-6 space-y-4">
-                <li class="flex items-center">
-                  <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span class="ml-3 text-gray-600">Project Planning</span>
-                </li>
-                <li class="flex items-center">
-                  <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span class="ml-3 text-gray-600">Integration Strategies</span>
-                </li>
-                <li class="flex items-center">
-                  <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span class="ml-3 text-gray-600">Change Management</span>
-                </li>
-              </ul>
-              <div class="mt-6">
-                <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
-                  Start Learning
-                </a>
-              </div>
-            </div>
-          </div>
+            <div class="mt-8 border-t border-gray-100 pt-8">
+              <div class="grid gap-8 lg:grid-cols-2">
+                <!-- Course List -->
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-4">Course Curriculum</h3>
+                  <div class="space-y-4">
+                    <div class="flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div class="ml-3">
+                        <h4 class="text-base font-medium text-gray-900">Introduction to AI</h4>
+                        <p class="mt-1 text-sm text-gray-500">Learn core AI concepts and terminology</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div class="ml-3">
+                        <h4 class="text-base font-medium text-gray-900">Python Programming</h4>
+                        <p class="mt-1 text-sm text-gray-500">Master Python basics for AI development</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div class="ml-3">
+                        <h4 class="text-base font-medium text-gray-900">Data Science Basics</h4>
+                        <p class="mt-1 text-sm text-gray-500">Understand data analysis fundamentals</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-          <!-- Advanced Path -->
-          <div class="bg-white overflow-hidden shadow rounded-lg border border-gray-200">
-            <div class="p-6">
-              <div class="flex items-center justify-between">
-                <h4 class="text-lg font-semibold text-gray-900">Advanced AI Topics</h4>
-                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-red-100 text-red-800">
-                  Advanced
-                </span>
-              </div>
-              <p class="mt-4 text-gray-600">Explore advanced topics in AI governance and innovation.</p>
-              <ul class="mt-6 space-y-4">
-                <li class="flex items-center">
-                  <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span class="ml-3 text-gray-600">AI Strategy Development</span>
-                </li>
-                <li class="flex items-center">
-                  <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span class="ml-3 text-gray-600">Innovation Leadership</span>
-                </li>
-                <li class="flex items-center">
-                  <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span class="ml-3 text-gray-600">Future of AI in Government</span>
-                </li>
-              </ul>
-              <div class="mt-6">
-                <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
-                  Start Learning
-                </a>
+                <!-- Course Info -->
+                <div class="lg:pl-8 lg:border-l lg:border-gray-100">
+                  <div class="space-y-6">
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">Duration</h3>
+                      <p class="mt-2 text-gray-600">8 weeks (4-6 hours/week)</p>
+                    </div>
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">Prerequisites</h3>
+                      <p class="mt-2 text-gray-600">No prior experience required</p>
+                    </div>
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">What You'll Learn</h3>
+                      <ul class="mt-2 space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                          <svg class="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          AI fundamentals and concepts
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          Python programming basics
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          Data analysis foundations
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mt-8">
+                    <button class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200">
+                      Start Learning
+                      <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Additional Resources -->
-      <div class="mt-16">
-        <h3 class="text-xl font-bold text-gray-900 mb-8">Additional Resources</h3>
-        <div class="grid gap-8 md:grid-cols-2">
-          <div class="bg-gray-50 p-6 rounded-lg">
-            <h4 class="text-lg font-semibold text-gray-900">Documentation Library</h4>
-            <p class="mt-2 text-gray-600">Access comprehensive documentation on AI tools, policies, and best practices.</p>
-            <a href="#" class="mt-4 inline-flex text-blue-600 hover:text-blue-500">
-              Browse Documentation →
-            </a>
+        <!-- Intermediate Path -->
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100">
+          <div class="p-8 sm:p-10">
+            <div class="flex items-center justify-between">
+              <div>
+                <h2 class="text-2xl font-bold text-gray-900">Applied AI Development</h2>
+                <p class="mt-2 text-gray-600">Build practical AI applications</p>
+              </div>
+              <span class="inline-flex items-center px-4 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                Intermediate
+              </span>
+            </div>
+
+            <div class="mt-8 border-t border-gray-100 pt-8">
+              <div class="grid gap-8 lg:grid-cols-2">
+                <!-- Course List -->
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-4">Course Curriculum</h3>
+                  <div class="space-y-4">
+                    <div class="flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div class="ml-3">
+                        <h4 class="text-base font-medium text-gray-900">Machine Learning Fundamentals</h4>
+                        <p class="mt-1 text-sm text-gray-500">Learn core ML algorithms and techniques</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div class="ml-3">
+                        <h4 class="text-base font-medium text-gray-900">Natural Language Processing</h4>
+                        <p class="mt-1 text-sm text-gray-500">Coming Soon - Text processing and analysis</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div class="ml-3">
+                        <h4 class="text-base font-medium text-gray-900">Computer Vision</h4>
+                        <p class="mt-1 text-sm text-gray-500">Coming Soon - Image and video processing</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Course Info -->
+                <div class="lg:pl-8 lg:border-l lg:border-gray-100">
+                  <div class="space-y-6">
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">Duration</h3>
+                      <p class="mt-2 text-gray-600">12 weeks (6-8 hours/week)</p>
+                    </div>
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">Prerequisites</h3>
+                      <p class="mt-2 text-gray-600">AI Fundamentals or equivalent experience</p>
+                    </div>
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">What You'll Learn</h3>
+                      <ul class="mt-2 space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                          <svg class="h-5 w-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          Machine learning algorithms
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="h-5 w-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          Natural language processing
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="h-5 w-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          Computer vision basics
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mt-8">
+                    <button class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-yellow-600 hover:bg-yellow-700 transition-colors duration-200">
+                      Join Waitlist
+                      <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="bg-gray-50 p-6 rounded-lg">
-            <h4 class="text-lg font-semibold text-gray-900">Community Forum</h4>
-            <p class="mt-2 text-gray-600">Connect with other government employees and share experiences.</p>
-            <a href="#" class="mt-4 inline-flex text-blue-600 hover:text-blue-500">
-              Join Discussion →
-            </a>
+        </div>
+
+        <!-- Advanced Path -->
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100">
+          <div class="p-8 sm:p-10">
+            <div class="flex items-center justify-between">
+              <div>
+                <h2 class="text-2xl font-bold text-gray-900">Advanced AI Engineering</h2>
+                <p class="mt-2 text-gray-600">Master complex AI systems and architectures</p>
+              </div>
+              <span class="inline-flex items-center px-4 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+                Advanced
+              </span>
+            </div>
+
+            <div class="mt-8 border-t border-gray-100 pt-8">
+              <div class="grid gap-8 lg:grid-cols-2">
+                <!-- Course List -->
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-4">Course Curriculum</h3>
+                  <div class="space-y-4">
+                    <div class="flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div class="ml-3">
+                        <h4 class="text-base font-medium text-gray-900">Deep Learning & Neural Networks</h4>
+                        <p class="mt-1 text-sm text-gray-500">Coming Soon - Advanced neural architectures</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div class="ml-3">
+                        <h4 class="text-base font-medium text-gray-900">AI System Design</h4>
+                        <p class="mt-1 text-sm text-gray-500">Coming Soon - Enterprise AI architecture</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Course Info -->
+                <div class="lg:pl-8 lg:border-l lg:border-gray-100">
+                  <div class="space-y-6">
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">Duration</h3>
+                      <p class="mt-2 text-gray-600">16 weeks (8-10 hours/week)</p>
+                    </div>
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">Prerequisites</h3>
+                      <p class="mt-2 text-gray-600">Applied AI Development or equivalent experience</p>
+                    </div>
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">What You'll Learn</h3>
+                      <ul class="mt-2 space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                          <svg class="h-5 w-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          Deep learning architectures
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="h-5 w-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          Enterprise AI systems
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="h-5 w-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          Model deployment at scale
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mt-8">
+                    <button class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-purple-600 hover:bg-purple-700 transition-colors duration-200">
+                      Join Waitlist
+                      <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -156,5 +316,5 @@
 </template>
 
 <script setup lang="ts">
-// Component logic will be added here
+// Component logic here
 </script> 

@@ -102,57 +102,6 @@
               </dl>
             </div>
           </div>
-
-          <!-- Best Practices -->
-          <div class="bg-white shadow overflow-hidden sm:rounded-lg">
-            <div class="px-4 py-5 sm:px-6">
-              <h3 class="text-lg leading-6 font-medium text-gray-900">Best Practices & Standards</h3>
-              <p class="mt-1 max-w-2xl text-sm text-gray-500">Recommended approaches and standards for AI implementation.</p>
-            </div>
-            <div class="border-t border-gray-200">
-              <ul class="divide-y divide-gray-200">
-                <li>
-                  <div class="px-4 py-4 sm:px-6">
-                    <div class="flex items-center justify-between">
-                      <p class="text-sm font-medium text-blue-600 truncate">Data Management Standards</p>
-                      <div class="ml-2 flex-shrink-0 flex">
-                        <p class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Required</p>
-                      </div>
-                    </div>
-                    <div class="mt-2">
-                      <p class="text-sm text-gray-600">Guidelines for managing data in AI applications, including collection, storage, and processing standards.</p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="px-4 py-4 sm:px-6">
-                    <div class="flex items-center justify-between">
-                      <p class="text-sm font-medium text-blue-600 truncate">Security Requirements</p>
-                      <div class="ml-2 flex-shrink-0 flex">
-                        <p class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Required</p>
-                      </div>
-                    </div>
-                    <div class="mt-2">
-                      <p class="text-sm text-gray-600">Security standards and requirements for AI applications in government systems.</p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="px-4 py-4 sm:px-6">
-                    <div class="flex items-center justify-between">
-                      <p class="text-sm font-medium text-blue-600 truncate">Ethics Guidelines</p>
-                      <div class="ml-2 flex-shrink-0 flex">
-                        <p class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Required</p>
-                      </div>
-                    </div>
-                    <div class="mt-2">
-                      <p class="text-sm text-gray-600">Ethical considerations and guidelines for AI implementation in government services.</p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -160,5 +109,5 @@
 </template>
 
 <script setup lang="ts">
-// Component logic will be added here
+// Component logic here
 </script> 
