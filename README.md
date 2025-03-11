@@ -97,8 +97,4 @@ The application is configured for deployment to the Government of Alberta's infr
 
 ## License
 
-This project is proprietary and confidential. All rights reserved by the Government of Alberta.
-
-## Contact
-
-For questions or support, contact the AIM (AI & Machine Learning) team at aim@alberta.ca. 
+This project is public and open-source MIT license.
